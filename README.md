@@ -27,3 +27,4 @@ config.sequelize = {
         exclude:"index.js"
     };
 ```
+5.每次新建完migration和对应的model后，要执行npx sequelize db:migrate，来更新数据库表的内容，更多关于数据库表的操作命令，可查看sequelize-cli命令行进行操作；
